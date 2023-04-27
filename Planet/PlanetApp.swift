@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct PlanetApp: App {
+    
+    init() {
+        NetworkMonitor.shared.startMonitoring()
+    }
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PlanetListScreen()
         }
     }
 }

@@ -14,6 +14,20 @@
 		E562B15529FA9AF300459684 /* PlanetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E562B15429FA9AF300459684 /* PlanetTests.swift */; };
 		E562B15F29FA9AF300459684 /* PlanetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E562B15E29FA9AF300459684 /* PlanetUITests.swift */; };
 		E562B16129FA9AF300459684 /* PlanetUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E562B16029FA9AF300459684 /* PlanetUITestsLaunchTests.swift */; };
+		E562B17429FA9C4800459684 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E562B17329FA9C4800459684 /* CoreDataManager.swift */; };
+		E562B17729FA9C5700459684 /* PlanetListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E562B17529FA9C5700459684 /* PlanetListViewModel.swift */; };
+		E562B17829FA9C5700459684 /* PlanetDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E562B17629FA9C5700459684 /* PlanetDataManager.swift */; };
+		E562B17B29FA9C6400459684 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E562B17929FA9C6400459684 /* NetworkMonitor.swift */; };
+		E562B17C29FA9C6400459684 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E562B17A29FA9C6400459684 /* NetworkService.swift */; };
+		E562B17E29FA9C6F00459684 /* PlanetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E562B17D29FA9C6F00459684 /* PlanetModel.swift */; };
+		E562B18029FA9C7A00459684 /* PlanetListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E562B17F29FA9C7A00459684 /* PlanetListScreen.swift */; };
+		E562B18229FA9CA700459684 /* PlanetListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E562B18129FA9CA700459684 /* PlanetListView.swift */; };
+		E562B18529FA9D1100459684 /* Planet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E562B18329FA9D1100459684 /* Planet.xcdatamodeld */; };
+		E562B18C29FA9DA100459684 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E562B18A29FA9DA100459684 /* NetworkMonitor.swift */; };
+		E562B18D29FA9DA100459684 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E562B18B29FA9DA100459684 /* NetworkService.swift */; };
+		E562B19229FA9E9600459684 /* NetworkServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E562B19129FA9E9500459684 /* NetworkServiceTests.swift */; };
+		E562B19329FA9EB300459684 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E562B18B29FA9DA100459684 /* NetworkService.swift */; };
+		E562B19629FA9F5A00459684 /* MockURLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = E562B19529FA9F5A00459684 /* MockURLSession.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +59,19 @@
 		E562B15A29FA9AF300459684 /* PlanetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlanetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E562B15E29FA9AF300459684 /* PlanetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetUITests.swift; sourceTree = "<group>"; };
 		E562B16029FA9AF300459684 /* PlanetUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E562B17329FA9C4800459684 /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		E562B17529FA9C5700459684 /* PlanetListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetListViewModel.swift; sourceTree = "<group>"; };
+		E562B17629FA9C5700459684 /* PlanetDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetDataManager.swift; sourceTree = "<group>"; };
+		E562B17929FA9C6400459684 /* NetworkMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkMonitor.swift; path = Planet/Services/NetworkMonitor.swift; sourceTree = SOURCE_ROOT; };
+		E562B17A29FA9C6400459684 /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkService.swift; path = Planet/Services/NetworkService.swift; sourceTree = SOURCE_ROOT; };
+		E562B17D29FA9C6F00459684 /* PlanetModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetModel.swift; sourceTree = "<group>"; };
+		E562B17F29FA9C7A00459684 /* PlanetListScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetListScreen.swift; sourceTree = "<group>"; };
+		E562B18129FA9CA700459684 /* PlanetListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetListView.swift; sourceTree = "<group>"; };
+		E562B18429FA9D1100459684 /* Planet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Planet.xcdatamodel; sourceTree = "<group>"; };
+		E562B18A29FA9DA100459684 /* NetworkMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+		E562B18B29FA9DA100459684 /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		E562B19129FA9E9500459684 /* NetworkServiceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkServiceTests.swift; sourceTree = "<group>"; };
+		E562B19529FA9F5A00459684 /* MockURLSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLSession.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +122,12 @@
 		E562B14129FA9AF100459684 /* Planet */ = {
 			isa = PBXGroup;
 			children = (
+				E562B17229FA9B6E00459684 /* LocalStorage */,
+				E562B17129FA9B6000459684 /* View Model */,
+				E562B17029FA9B5500459684 /* Services */,
+				E562B16F29FA9B4B00459684 /* Models */,
+				E562B16E29FA9B3F00459684 /* Screens */,
+				E562B16D29FA9B3500459684 /* Views */,
 				E562B14229FA9AF100459684 /* PlanetApp.swift */,
 				E562B14429FA9AF100459684 /* ContentView.swift */,
 				E562B14629FA9AF200459684 /* Assets.xcassets */,
@@ -115,6 +148,8 @@
 		E562B15329FA9AF300459684 /* PlanetTests */ = {
 			isa = PBXGroup;
 			children = (
+				E562B19429FA9F4B00459684 /* mock */,
+				E562B19129FA9E9500459684 /* NetworkServiceTests.swift */,
 				E562B15429FA9AF300459684 /* PlanetTests.swift */,
 			);
 			path = PlanetTests;
@@ -127,6 +162,67 @@
 				E562B16029FA9AF300459684 /* PlanetUITestsLaunchTests.swift */,
 			);
 			path = PlanetUITests;
+			sourceTree = "<group>";
+		};
+		E562B16D29FA9B3500459684 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E562B18129FA9CA700459684 /* PlanetListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E562B16E29FA9B3F00459684 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				E562B17F29FA9C7A00459684 /* PlanetListScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		E562B16F29FA9B4B00459684 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E562B17D29FA9C6F00459684 /* PlanetModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E562B17029FA9B5500459684 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E562B18A29FA9DA100459684 /* NetworkMonitor.swift */,
+				E562B18B29FA9DA100459684 /* NetworkService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E562B17129FA9B6000459684 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				E562B17629FA9C5700459684 /* PlanetDataManager.swift */,
+				E562B17529FA9C5700459684 /* PlanetListViewModel.swift */,
+				E562B17929FA9C6400459684 /* NetworkMonitor.swift */,
+				E562B17A29FA9C6400459684 /* NetworkService.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		E562B17229FA9B6E00459684 /* LocalStorage */ = {
+			isa = PBXGroup;
+			children = (
+				E562B17329FA9C4800459684 /* CoreDataManager.swift */,
+				E562B18329FA9D1100459684 /* Planet.xcdatamodeld */,
+			);
+			path = LocalStorage;
+			sourceTree = "<group>";
+		};
+		E562B19429FA9F4B00459684 /* mock */ = {
+			isa = PBXGroup;
+			children = (
+				E562B19529FA9F5A00459684 /* MockURLSession.swift */,
+			);
+			path = mock;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +355,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E562B17729FA9C5700459684 /* PlanetListViewModel.swift in Sources */,
+				E562B18C29FA9DA100459684 /* NetworkMonitor.swift in Sources */,
+				E562B17E29FA9C6F00459684 /* PlanetModel.swift in Sources */,
+				E562B17B29FA9C6400459684 /* NetworkMonitor.swift in Sources */,
+				E562B17429FA9C4800459684 /* CoreDataManager.swift in Sources */,
+				E562B18529FA9D1100459684 /* Planet.xcdatamodeld in Sources */,
+				E562B18229FA9CA700459684 /* PlanetListView.swift in Sources */,
 				E562B14529FA9AF100459684 /* ContentView.swift in Sources */,
+				E562B18029FA9C7A00459684 /* PlanetListScreen.swift in Sources */,
+				E562B17829FA9C5700459684 /* PlanetDataManager.swift in Sources */,
 				E562B14329FA9AF100459684 /* PlanetApp.swift in Sources */,
+				E562B18D29FA9DA100459684 /* NetworkService.swift in Sources */,
+				E562B17C29FA9C6400459684 /* NetworkService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +375,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E562B19629FA9F5A00459684 /* MockURLSession.swift in Sources */,
+				E562B19229FA9E9600459684 /* NetworkServiceTests.swift in Sources */,
+				E562B19329FA9EB300459684 /* NetworkService.swift in Sources */,
 				E562B15529FA9AF300459684 /* PlanetTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -604,6 +714,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E562B18329FA9D1100459684 /* Planet.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E562B18429FA9D1100459684 /* Planet.xcdatamodel */,
+			);
+			currentVersion = E562B18429FA9D1100459684 /* Planet.xcdatamodel */;
+			path = Planet.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = E562B13729FA9AF100459684 /* Project object */;
 }
